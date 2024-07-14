@@ -1,0 +1,129 @@
+Request:
+
+{
+    "brand" : "TATA",
+    "engineType" : "PETROL",
+    "numberOfSeats" : 5,
+    "tankSize": "60",
+    "mileage" : "20"
+
+}
+
+####################################################################
+
+Response:
+
+{
+    "cars": [
+        {
+            "id": 1,
+            "model": "TIAGO",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "RED",
+            "numberOfSeats": 5,
+            "tankSize": "60",
+            "mileage": "19",
+            "price": "700000"
+        },
+        {
+            "id": 3,
+            "model": "PUNCH",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "WHITE",
+            "numberOfSeats": 5,
+            "tankSize": "60",
+            "mileage": "18",
+            "price": "800000"
+        },
+        {
+            "id": 4,
+            "model": "ALTROZ",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "BLACK",
+            "numberOfSeats": 5,
+            "tankSize": "63",
+            "mileage": "19",
+            "price": "700000"
+        },
+        {
+            "id": 6,
+            "model": "TIAGO",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "WHITE",
+            "numberOfSeats": 5,
+            "tankSize": "60",
+            "mileage": "19",
+            "price": "700000"
+        },
+        {
+            "id": 7,
+            "model": "NEXON",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "RED",
+            "numberOfSeats": 5,
+            "tankSize": "65",
+            "mileage": "19",
+            "price": "800000"
+        },
+        {
+            "id": 11,
+            "model": "TIGOR",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "BLACK",
+            "numberOfSeats": 5,
+            "tankSize": "65",
+            "mileage": "19",
+            "price": "700000"
+        },
+        {
+            "id": 23,
+            "model": "PUNCH",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "RED",
+            "numberOfSeats": 5,
+            "tankSize": "60",
+            "mileage": "18",
+            "price": "800000"
+        },
+        {
+            "id": 24,
+            "model": "PUNCH",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "BLACK",
+            "numberOfSeats": 5,
+            "tankSize": "60",
+            "mileage": "19",
+            "price": "800000"
+        },
+        {
+            "id": 25,
+            "model": "NEXON",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "GOLDEN",
+            "numberOfSeats": 5,
+            "tankSize": "65",
+            "mileage": "19",
+            "price": "800000"
+        },
+        {
+            "id": 26,
+            "model": "NEXON",
+            "brand": "TATA",
+            "engineType": "PETROL",
+            "color": "RED",
+            "numberOfSeats": 5,
+            "tankSize": "65",
+            "mileage": "19",
+            "price": "900000"
+        }
+    ]
+}
