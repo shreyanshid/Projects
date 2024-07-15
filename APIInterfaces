@@ -1,0 +1,47 @@
+
+// Search for similar cars (upto 10)
+
+POST:
+
+url: http://localhost:8080/car/search
+
+
+####################################################################
+
+// Search car details by id
+
+GET:
+
+url: http://localhost:8080/car/4
+
+
+####################################################################
+
+// Compare 2 cars (show the differences only)
+
+GET:
+
+url: http://localhost:8080/car/compare?id1=16&id2=6
+
+####################################################################
+
+API Interface:
+
+@RestController
+@RequestMapping("/car")
+public interface CarComparison {
+
+    @PostMapping("/search")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    ResponseEntity searchCars(@RequestBody Car input);
+
+    @GetMapping("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    ResponseEntity getCar(@PathVariable int id);
+
+    @GetMapping("/compare")
+    @Produces(MediaType.APPLICATION_JSON)
+    ResponseEntity compareCars(@RequestParam int id1, @RequestParam int id2);
+
+}
