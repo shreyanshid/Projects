@@ -1,0 +1,13 @@
+Car:
+
+{
+    "id": 4,
+    "model": "ALTROZ",
+    "brand": "TATA",
+    "engineType": "PETROL",
+    "color": "BLACK",
+    "numberOfSeats": 5,
+    "tankSize": "63",
+    "mileage": "19",
+    "price": "700000"
+}
